@@ -30,7 +30,8 @@ jobs:
         with:
           name: allure-report
           path: allure-report
-          retention-days: 30   
+          retention-days: 30
+          command: ls
 
       - name: Get Allure history
         uses: actions/checkout@v2
