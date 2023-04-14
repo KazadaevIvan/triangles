@@ -24,7 +24,7 @@ jobs:
         continue-on-error: true
         with:
           browser: chrome
-          command: npm run ui-regression
+          command: npm run ui-regression-allure
 
       - name: Get Allure history
         uses: actions/checkout@v2
