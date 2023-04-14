@@ -25,11 +25,11 @@ jobs:
           command: npm run ui-regression
 
       - name: Uploading artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@master
         if: always()
         with:
-          name: cypress-execution-report
-          path: cypress/reports/html
+          name: allure-report
+          path: allure-report
           retention-days: 30   
 
       - name: Get Allure history
