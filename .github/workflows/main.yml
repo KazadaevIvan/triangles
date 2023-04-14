@@ -15,10 +15,8 @@ jobs:
       - name: Run ui tests
         uses: cypress-io/github-action@v5.6.1
         with:
-          node-version: '16'
           browser: chrome
           command: npm run ui-regression
-          cache: 'npm'
 
       - name: Upload artifact
       - uses: actions/upload-artifact@master
