@@ -12,6 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.5.2
 
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'npm'
+
       - name: Run ui tests
         uses: cypress-io/github-action@v5.6.1
         with:
@@ -19,7 +25,7 @@ jobs:
           command: npm run ui-regression
 
       - name: Upload artifact
-      - uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@master
         with:
           name: allure-results
           path: allure-results
