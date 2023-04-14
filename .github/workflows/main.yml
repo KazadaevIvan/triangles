@@ -23,7 +23,9 @@ jobs:
         with:
           browser: chrome
           command: npm run ui-regression
-          command: ls
+      
+      - name: Show all files
+        run: ls
 
       - name: Get Allure history
         uses: actions/checkout@v2
