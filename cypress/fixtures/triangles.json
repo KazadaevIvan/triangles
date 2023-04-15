@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Should say triangle is Equilateral when all three sides are equal",
+        "firstSide": 4,
+        "secondSide": 4,
+        "thirdSide": 4,
+        "expectedMessage": "Equilateral"
+    },
+    {
+        "name": "Should say triangle is Isosceles when two sides are equal",
+        "firstSide": 4,
+        "secondSide": 4,
+        "thirdSide": 3,
+        "expectedMessage": "Isosceles"
+    },
+    {
+        "name": "Should say triangle is Scalene when no sides are equal",
+        "firstSide": 4,
+        "secondSide": 3,
+        "thirdSide": 2,
+        "expectedMessage": "Scalene"
+    },
+    {
+        "name": "Should print error message when the first side is missing",
+        "firstSide": " ",
+        "secondSide": 4,
+        "thirdSide": 3,
+        "expectedMessage": "Error: Side 1 is missing"
+    },
+    {
+        "name": "Should print error message when the second side is missing",
+        "firstSide": 4,
+        "secondSide": " ",
+        "thirdSide": 3,
+        "expectedMessage": "Error: Side 2 is missing"
+    },
+    {
+        "name": "Should print error message when the third side is missing",
+        "firstSide": 4,
+        "secondSide": 4,
+        "thirdSide": " ",
+        "expectedMessage": "Error: Side 3 is missing"
+    },
+    {
+        "name": "Should print error when sum of the length of two sides is not greater than the length of the third side",
+        "firstSide": 4,
+        "secondSide": 4,
+        "thirdSide": 8,
+        "expectedMessage": "Error: Not a Triangle"
+    }
+]
