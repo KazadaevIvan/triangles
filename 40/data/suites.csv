@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 15 20:15:35 GMT 2023","Sat Apr 15 20:15:36 GMT 2023","840","","DDT Triangles app","","","","Should say triangle is Scalene when no sides are equal",""
+"passed","Sat Apr 15 20:15:36 GMT 2023","Sat Apr 15 20:15:36 GMT 2023","856","","DDT Triangles app","","","","Should print error message when the first side is missing",""
+"passed","Sat Apr 15 20:15:38 GMT 2023","Sat Apr 15 20:15:39 GMT 2023","854","","DDT Triangles app","","","","Should print error when sum of the length of two sides is not greater than the length of the third side",""
+"passed","Sat Apr 15 20:15:37 GMT 2023","Sat Apr 15 20:15:38 GMT 2023","855","","DDT Triangles app","","","","Should print error message when the third side is missing",""
+"passed","Sat Apr 15 20:15:32 GMT 2023","Sat Apr 15 20:15:34 GMT 2023","1484","","DDT Triangles app","","","","Should say triangle is Equilateral when all three sides are equal",""
+"passed","Sat Apr 15 20:15:34 GMT 2023","Sat Apr 15 20:15:35 GMT 2023","878","","DDT Triangles app","","","","Should say triangle is Isosceles when two sides are equal",""
+"passed","Sat Apr 15 20:15:36 GMT 2023","Sat Apr 15 20:15:37 GMT 2023","836","","DDT Triangles app","","","","Should print error message when the second side is missing",""
