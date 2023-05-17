@@ -2,3 +2,5 @@
 /allure-results
 /jsconfig.json
 /node_modules
+/cypress/screenshots
+/cypress/videos
