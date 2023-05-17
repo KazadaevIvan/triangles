@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 17 09:46:28 GMT 2023","Wed May 17 09:46:28 GMT 2023","647","","Negative tests","","","","Should print error when second side is missing",""
+"passed","Wed May 17 09:46:28 GMT 2023","Wed May 17 09:46:29 GMT 2023","614","","Negative tests","","","","Should print error when third side is missing",""
+"passed","Wed May 17 09:46:34 GMT 2023","Wed May 17 09:46:35 GMT 2023","870","","Positive tests","","","","Should say triangle is Equilateral when all three sides are equal",""
+"passed","Wed May 17 09:46:27 GMT 2023","Wed May 17 09:46:28 GMT 2023","1036","","Negative tests","","","","Should print error when first side is missing",""
+"passed","Wed May 17 09:46:35 GMT 2023","Wed May 17 09:46:36 GMT 2023","788","","Positive tests","","","","Should say triangle is Isosceles when two sides are equal",""
+"passed","Wed May 17 09:46:36 GMT 2023","Wed May 17 09:46:37 GMT 2023","789","","Positive tests","","","","Should say triangle is Scalene when no sides are equal",""
+"passed","Wed May 17 09:46:29 GMT 2023","Wed May 17 09:46:30 GMT 2023","802","","Negative tests","","","","Should print error when sum of the length of two sides is not greater than the length of the third side",""
