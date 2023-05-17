@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('inputTriangleSides', (firstSide, secondSide, thirdSide, expectedMessage) => {
+Cypress.Commands.add('inputTriangleSides', (firstSide, secondSide, thirdSide) => {
     cy.get('#side1').type(firstSide);
     cy.get('#side2').type(secondSide);
     cy.get('#side3').type(thirdSide);
